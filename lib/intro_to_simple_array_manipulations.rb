@@ -19,5 +19,10 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
+  nu_array = array.shift()
+end
+
+def using_concat
+  
   
   
