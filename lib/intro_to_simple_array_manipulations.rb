@@ -19,7 +19,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  nu_array = array.shift()
+  array.shift(2)
 end
 
 def using_concat(array_1, array_2)
@@ -27,7 +27,7 @@ def using_concat(array_1, array_2)
 end
 
 def using_insert(array, element)
-  array.insert(element)
+  array.insert(4)
 end
 
 def using_uniq(array)
